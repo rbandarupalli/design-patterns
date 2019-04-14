@@ -15,7 +15,7 @@ public class IndigenousVehicleFactory implements VehicleFactory {
 
 	public static VehicleFactory getInstance() {
 		if(singleton == null) {
-			synchronized (ImportedVehicleFactory.class) {
+			synchronized (IndigenousVehicleFactory.class) {
 				if(singleton == null) {
 					singleton = new IndigenousVehicleFactory();
 				}
