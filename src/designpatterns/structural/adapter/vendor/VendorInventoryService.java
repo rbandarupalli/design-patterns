@@ -1,5 +1,11 @@
 package designpatterns.structural.adapter.vendor;
 
+/**
+ * A library class client cannot modify.
+ * 
+ * @author Ramanjaneyulu Bandarupalli
+ *
+ */
 public class VendorInventoryService {
 	
 	public int checkVehicleAvailability(String model) {
