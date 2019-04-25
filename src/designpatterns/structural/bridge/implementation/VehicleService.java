@@ -19,11 +19,4 @@ public class VehicleService implements VehicleServiceI {
 		// actual implementation goes here
 		return "10";
 	}
-
-	@Override
-	public String sayHello() {
-		// TODO Auto-generated method stub
-		return "hi";
-	}
-
 }
